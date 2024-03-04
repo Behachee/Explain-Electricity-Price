@@ -37,6 +37,7 @@ The EDA was really important to visualise the outliers, distribution, and correl
 * Highly correlated features:
 
 **Deal with missing values:**
+* Input missing value with KNN imputer
 
 **Clustering:**
 * Create 5 clusters for the dataset
@@ -55,6 +56,8 @@ The EDA was really important to visualise the outliers, distribution, and correl
 * Creating polynomial feature of degree 3
 
 ### Models
+
+
 
 ### Can you explain the price of electricity?
 
