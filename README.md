@@ -56,7 +56,7 @@ The EDA was really important to visualise the outliers, distribution, and correl
 * Creating polynomial feature of degree 3
 
 ### Models
-
+<img width="1240" alt="Screenshot 2024-03-04 at 22 47 18" src="https://github.com/Behachee/Explain-Electricity-Price/assets/115945494/742fbeb7-9ad8-4983-8986-0e3a0e3e04c6">
 
 
 ### Can you explain the price of electricity?
