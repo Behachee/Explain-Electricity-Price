@@ -61,4 +61,20 @@ The EDA was really important to visualise the outliers, distribution, and correl
 
 ### Can you explain the price of electricity?
 
-Add feature importance for the best model + linear reg
+Variable importance based on permutation 
+
+* Why?
+  * Impurity decrease has a tendency to inflate the importance of continuous features
+  * We removed correlated predictors
+
+* How?
+  * Measure the prediction strength of each variable
+  * Permute at random the j-th variable values of these data and pass this modified dataset to the RF again to obtain predictions
+  * Compute the OOB-error on this modified dataset
+  * The $V_i$ of $X_j$ is the difference between the benchmark score E and the one from the modified (permuted) dataset
+  * The more the increase of OOB error is, the more important is the variable
+
+* Variable importance
+  * Electricity consumption after using all renewable energies in Germany
+  * Wind power in Germany
+  * Natural gas in France
