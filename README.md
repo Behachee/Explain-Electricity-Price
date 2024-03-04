@@ -4,14 +4,14 @@
 
 ### Theo Belen-Halimi, Proud Chareesri, Federico Cruz, Charlotte Cupillard
 
-#### Introduction
+### Introduction
 
 Every day, a multitude of factors impact on the price of electricity. Local weather variations will affect both electricity generation and demand for instance. Long term phenomena, such as global warming, will also have a significant influence. Geopolitical events, such as the war in Ukraine, may affect in parallel the price of commodities, which are key inputs in electricity generation, knowing that each country relies on a particular energy mix (nuclear, solar, hydro, gas, coal, etc). Moreover, each country may import/export electricity with its neighbors through dynamical markets, like in Europe. These various elements make quite complex the modelisation of electricy price in a given country.
 
 The dataset is from a challenge data: https://challengedata.ens.fr/participants/challenges/97/.
 The aim is to model the electricity price from weather, energy (commodities) and commercial data for two European countries - France and Germany. We want to create a model that outputs from these explanatory variables a good estimation for the daily price variation of electricity futures contracts, in France and Germany. These contracts allow you to receive (or to deliver) a given amount of electricity at a specified price by the contract delivered at a specified time in the future (at the contract's maturity). Thus, futures contracts are financial instruments that give you some expected value on the future price of electricity under actual market conditions - here, we focus on short-term maturity contracts (24h). 
 
-#### Dataset description
+### Dataset description
 
 **Target variable and features:**
 
@@ -25,13 +25,13 @@ The aim is to model the electricity price from weather, energy (commodities) and
 * Float and Integer Types (except for Country which is an object)
 * 12 Features with Null Values
 
-#### EDA
+### EDA
 
 You can find the EDA part in the file "exploration".
 The EDA was really important to visualise the outliers, distribution, and correlation between independant variables.
 
 
-#### Feature engineering
+### Feature engineering
 
 **Removing features:**
 * Highly correlated features:
@@ -54,8 +54,8 @@ The EDA was really important to visualise the outliers, distribution, and correl
 **Polynomial Features:**
 * Creating polynomial feature of degree 3
 
-#### Models
+### Models
 
-#### Can you explain the price of electricity?
+### Can you explain the price of electricity?
 
 Add feature importance for the best model + linear reg
