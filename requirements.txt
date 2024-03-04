@@ -1,9 +1,9 @@
-pandas
 matplotlib
+numpy
+pandas
 seaborn
+scipy
 scikit-learn
 xgboost
-prophet
-numpy
-scipy
-google.colab
+lightgbm
+fbprophet
