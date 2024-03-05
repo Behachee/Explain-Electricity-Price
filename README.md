@@ -94,13 +94,4 @@ Variable importance based on permutation
 3. Install necessary Python packages as listed in the `requirements.txt` file.
 4. Open and run the notebooks in order, starting from `EDA.ipynb` to understand the data, followed by `data_cleaning.ipynb` for preprocessing, and finally the model notebooks.
 
-## Contribution
-Feel free to fork this repository and contribute by submitting a pull request. Whether it's improving the existing models, adding new ones, or enhancing the data analysis, your contributions are welcome.
 
-## Acknowledgments
-This challenge was made possible by the organizers and the community. Special thanks to the contributors for their hard work and dedication to advancing our understanding of electricity price variations.
-
-For more detailed information about the challenge, visit our dedicated forum and LinkedIn page.
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
